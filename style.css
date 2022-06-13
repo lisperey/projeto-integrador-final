@@ -1,0 +1,508 @@
+*{
+  font-family: 'Share Tech Mono', monospace;*/
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 15px;
+  left: 0%;
+  
+ 
+}
+
+body{
+background-color: #fff;
+margin: 0%;
+
+}
+
+/* header area */
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+  
+}
+
+.titulum{
+color: black;
+}
+
+.logo{
+  border-radius: 10px;
+  margin: 5px;
+  width: 140px;
+  
+}
+
+.allBar{
+  position: fixed;
+  top: 0;
+  opacity: 0,10;
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  left: 0;
+  
+}
+
+.messenger{
+  background-color:  #e11b11;
+  border: 1.7vh solid #e11b11; 
+  border-radius: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 1px;
+  max-width: 100%;
+  
+  
+}
+
+
+
+.comuni{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 94.5%;
+  margin-top: 37.7%;
+  gap: 1vh;
+  position: fixed;
+  
+  
+}
+
+
+.whatsapp{
+  
+  background-color:  #00FF00;
+  border: 1.7vh solid #00FF00;
+  border-radius: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 1px;
+  max-width: 100%;
+  
+ 
+  
+}
+
+.navBar{
+  color: #dedede;
+  text-shadow: 1px 1px 0.5px black;
+  
+}
+
+
+.inicio, .sobre, .mercado, .diferenciais, .matriz{
+  margin-right: 40px;
+  text-decoration: none;
+  color:#dedede;
+  text-shadow: 3px black;
+  font-size: 130%;
+}
+
+.inicio:hover{ color: #e21624;}
+.sobre:hover{color: #e21624}
+.mercado:hover{color: #e21624}
+.diferenciais:hover{color: #e21624}
+.matriz:hover{color: #e21624}
+
+
+/* end of header area */
+
+/* main area */
+
+/* mainSec area */
+
+.main{
+  border-top: 1px solid grey;
+}
+
+.mainSec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  margin-top: 1px;
+  gap: 90px;
+  
+  
+  /* background-color: blue; */
+}
+
+
+
+
+.nomeCurso{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dedede;
+  font-size: 9vh;
+  width: 210.5vh;
+  height: 95vh;
+  background-image: url(Images/Red.jpg);
+  background-size: cover;
+  margin-top: 0%;
+
+}
+
+
+
+.sistemas{
+  margin-left: 2px;
+  font-size: 10px;
+  text-shadow: 0px 0px 1px black;
+ 
+  
+}
+
+.pTitleG{
+  font-size: 25px;
+  border-bottom: 2px solid #d9030b;
+  box-shadow: 0px 1px 0px rgb(45, 43, 43);
+  color: black;
+}
+
+.pTitleP{
+  font-size: 15px;
+  margin-top: 0%;
+
+}
+
+
+.cursosSec{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.mainTitle{
+  font-size: 34px;
+  margin-bottom: 0%;
+}
+
+.pTitle{
+  font-size: 17px;
+}
+
+.coordenador{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color:  #d9030b;
+  color: #dedede;
+  text-shadow: 5px 4px 5px black;
+  box-shadow: 4px 5px 4px rgb(45, 43, 43);
+  border-radius: 0.9%;
+  margin-right: 25px;
+}
+
+.coordH1{
+margin-top: 10px;
+margin-bottom: 30px;
+font-size: 22px;
+border-bottom: solid 2px #dedede;
+box-shadow: 0px 1px 0px rgb(45, 43, 43);
+
+
+}
+
+.botaoIns{
+  background-color:#d9030b;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.582);
+
+
+}
+
+.botaoIns:hover{
+  background-color: #fff;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.582);
+  
+
+}
+
+.linkBot{
+  text-decoration: none;
+  color: #dedede;
+  font-size: 50px;
+  ;
+}
+
+.linkBot:hover{
+  color: #d9030b;
+  border-bottom: 3px solid #d9030b;
+
+}
+
+.coordText{
+ 
+
+}
+
+.coordP{
+
+}
+.marceloImg{
+  border-radius: 100%;
+}
+
+/* end of mainSec */
+
+/* sobreSec area */
+
+.sobreSec{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 755px;
+  
+}
+
+
+.sobreH1{
+  text-shadow: 0px 0px 1px black;
+  font-size: 25px;
+  border-bottom: 1.5px solid #e21624;
+}
+
+.h2conc{
+  font-size: 18px;
+  color: #666;
+
+}
+
+.sdiP{
+  font-family: 'Share Tech Mono', monospace;;
+  margin-top: 10px;
+  color: #666;
+  line-height: 23px;
+  font-size: 15px;
+  
+  
+}
+
+.spiP{
+  color: #666;
+  font-size: 15px;
+  list-style-type: disc;
+ 
+  
+}
+
+li{
+  display: list-item;
+  margin-top: 5px;
+  margin-left: 50px;
+  
+}
+
+.pP{
+  margin-top: 0%;
+  margin-left: 50px;
+
+}
+
+.h2Info{
+  font-size: 18px;
+  color: #666;
+  
+}
+
+.linkCurso{
+  text-decoration: none;
+  text-shadow: 3px black;
+  color:black;
+  font-size: 22px;
+
+}
+
+.linkCurso:hover{
+  color: #e21624;
+}
+
+footer{
+  width: 210vh;
+  margin-top: 100px;
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  
+  
+  
+  
+}
+
+.end{
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  color: #dedede;
+  margin: 10px;
+  padding-top: 50px;
+  border-bottom: 1px solid rgba( 255,255,255,0.1);
+  height: 500px;
+  width: 1200px;
+  gap: 10px;
+  text-decoration: none;
+  color: #dedede;
+  
+  
+  
+}
+
+.sectEdn{
+  font-size: 10px;
+  text-decoration: none;
+  color: #dedede;
+  
+  
+ 
+}
+.academico{
+  padding-left: 15px;
+  width: 100%;
+}
+
+.ulFooter{
+  list-style-type: none;
+  font-size: 1px;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: #dedede;
+  
+}
+
+.liFooter{
+  text-decoration: none;
+  color: #666;
+}
+
+.liFooter:hover{
+  color: #e21624;
+}
+
+.logoEnd{
+  padding-top: 1.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.end1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.redesS{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  gap: 2vh;
+  
+
+
+}
+
+.logoB{
+  border: 12px solid rgb(45, 44, 44);
+  border-radius: 10%;
+  background-color: rgb(45, 44, 44);
+  padding: 50%;
+  padding: 0%;
+  margin: 0%;
+  
+}
+
+.logoB:hover{
+  border: 12px solid #e21624;
+  background-color: #e21624; 
+}
+
+.endFooter{
+  text-align: center;
+  color: #dedede;
+  
+}
+
+@media screen and (max-width: 1000px){
+  .comuni{margin-left: 90%;
+          margin-top: 59%;}
+
+  .allBar{
+    ;
+  }
+  .inicio, .sobre, .mercado, .diferenciais, .matriz{
+    
+    font-size: 65%;
+  }
+
+  .video{ width: 600px;
+          margin-bottom: 50px;}
+        
+  .nomeCurso{
+  
+    font-size:30px;
+    width: 100%; 
+    margin-right: 0;
+  
+  }  
+  
+  footer{
+    width: 100%;
+    height: 90000;
+
+ 
+    
+  }
+        
+  .end{
+    width: 100%;
+    height: 100% ;
+    
+  } 
+
+  
+
+  .sobreSec{
+    width: 80%;
+  }
+  
+ .end1{
+   flex-direction: column;
+   justify-content: space-evenly;
+ }
+
+  .ulFooter{
+    width: 20%;
+    height: 100%;
+  }
+
+  
+
+        
+        
+        }
+
+
+
+
